@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[Node]
+name="Main"
+extends Node
+
+# Adiciona o script principal
+[node name="Script" type="Script" instance="res://Main.gd"]

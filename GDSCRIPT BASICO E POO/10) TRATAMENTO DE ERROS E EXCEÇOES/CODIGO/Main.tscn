@@ -1,0 +1,9 @@
+# Main.tscn (Cena principal)
+[gd_scene load_steps=2 format=2]
+
+[Node]
+name="Main"
+extends Node
+
+# Adiciona o InventoryManager
+[node name="InventoryManager" type="Node" instance="res://InventoryManager.tscn"]

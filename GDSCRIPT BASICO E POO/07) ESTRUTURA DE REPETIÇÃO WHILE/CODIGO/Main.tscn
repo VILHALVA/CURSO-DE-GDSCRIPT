@@ -1,0 +1,10 @@
+# Main.tscn (Cena principal)
+[gd_scene load_steps=2 format=2]
+
+[Node]
+name="Main"
+extends Node
+
+# Adiciona o Player e o GameManager
+[node name="Player" type="Node2D" instance="res://Player.tscn"]
+[node name="GameManager" type="Node" instance="res://GameManager.tscn"]
